@@ -1,0 +1,45 @@
+.every{
+	text-align: center;
+	background-color:rgb(20, 32, 20) ;
+	border-radius:60px;
+	padding: 15px;
+	margin-top: 50px;
+	margin: auto;
+	max-width: 350px;
+}
+.buttona button{
+	margin:12px ;
+/*	font-size:18px;*/
+	font-weight: bolder;
+}
+.buttonb button{
+	margin:12px ;
+	*	font-size:18px;*/
+	font-weight: bolder;
+}
+.buttonc button{
+	margin:12px ;
+	*	font-size:18px;*/
+	font-weight: bolder;
+}
+.buttond button{
+	margin:12px ;
+	*	font-size:18px;*/
+	font-weight: bolder;
+}
+.buttone button{
+	margin:12px ;
+	*	font-size:18px;*/
+	font-weight: bolder;
+
+}
+.box{
+	width:90%;
+	height:40px;
+	border-radius:20px;
+	padding:3px;
+/*	border: none;*/
+/*	background-color: rgb(20, 32, 20);*/
+
+}
+

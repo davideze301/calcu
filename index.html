@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>calculator function</title>
+		<link rel="stylesheet" href ="style.css" >
+	</head>
+	<body>
+		<div class="every">
+			<p style="font-size:50px;color: white; ">CALCULATOR</p>
+			<div class="output">
+				<input type="text" id="output" class="box"> 
+			</div>
+			<div class="buttona">
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="cancel()">C</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="expo()">^</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;"  onclick="percent()">%</button>
+				<button style="color:white;background-color:orangered;border-radius:70%;padding:20px;border:none;height: 50px;"  onclick="divide()">/</button>
+			</div>
+			<div class="buttonb">
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="seven()">7</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="eight()">8</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="nine()">9</button>
+				<button style="color:white;background-color:orangered;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="ash()">*</button>
+			</div>
+			<div class="buttonc">
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="four()">4</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="five()">5</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="six()">6</button>
+				<button style="color:white;background-color:orangered;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="sub()">-</button>
+			</div>
+			<div class="buttonc">
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="one()">1</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="two()">2</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="three()">3</button>
+				<button style="color:white;background-color:orangered;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="plus()">+</button>
+			</div>
+			<div class="buttone">
+				<button style="color:white;background-color:grey;width:35%; border-radius:20px;padding:20px;border:none;height: 50px;" onclick="zero()">0</button>
+				<button style="color:white;background-color:grey;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="dot()">.</button>
+				<button style="color:white;background-color:orangered;border-radius:70%;padding:20px;border:none;height: 50px;" onclick="equal()">=</button>
+
+				
+			</div>
+		</div>
+
+
+		<script>
+			let outputEl = document.getElementById('output'); 
+			function one(){
+				outputEl.value += "1"
+			}
+			function cancel(){
+				outputEl.value = ""
+			}
+			function expo(){
+				outputEl.value += "^"
+			}
+			function percent(){
+				outputEl.value += "%"
+			}
+			function divide(){
+				outputEl.value += "/"
+			}
+			function seven(){
+				outputEl.value += "7"
+			}
+			function eight(){
+				outputEl.value += "8"
+			}
+			function nine(){
+				outputEl.value += "9"
+			}
+			function ash(){
+				outputEl.value += "*"
+			}
+			function four(){
+				outputEl.value += "4"
+			}
+			function five(){
+				outputEl.value += "5"
+			}
+			function six(){
+				outputEl.value += "6"
+			}
+			function sub(){
+				outputEl.value += "-"
+			}
+			function two(){
+				outputEl.value += "2"
+			}
+			function three(){
+				outputEl.value += "3"
+			}
+			function plus(){
+				outputEl.value += "+"
+			}
+			function zero(){
+				outputEl.value += "0"
+			}
+			function dot(){
+				outputEl.value += "."
+			}
+			function equal(){
+				outputEl.value = eval(outputEl.value)
+			}
+
+
+
+
+
+
+
+
+
+
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	</html>
